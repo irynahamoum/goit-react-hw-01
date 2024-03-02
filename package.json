@@ -1,7 +1,9 @@
 {
-  "name": "react",
+  "name": "goit-react-hw-01",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "iryna.hamoum@gmail.com",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
