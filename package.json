@@ -7,9 +7,15 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "prettier:fix": "./node_modules/.bin/prettier --write src/**/*.{js,jsx}",
+    "prettier:fix": "prettier --write src/**/*.{js,jsx}",
     "preview": "vite preview",
     "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "npm run prettier:fix",
+      "npm run lint"
+    ]
   },
   "dependencies": {
     "react": "^18.2.0",
