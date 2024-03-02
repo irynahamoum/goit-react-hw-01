@@ -11,12 +11,6 @@
     "preview": "vite preview",
     "prepare": "husky"
   },
-  "lint-staged": {
-    "*.{js,jsx}": [
-      "npm run prettier:fix",
-      "npm run lint"
-    ]
-  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
