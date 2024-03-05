@@ -1,0 +1,18 @@
+.friendsList {
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 6px;
+}
+
+.friendsCard {
+  width: calc(100% / 5);
+  border: 1px solid #000000;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0 auto;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}

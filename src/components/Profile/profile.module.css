@@ -2,16 +2,16 @@
   border: 1px solid #000000;
   border-radius: 6px;
   margin: 0 auto;
-  width: 280px;
-  background-color: #dad6d6;
-  padding-top: 15px;
+  width: 320px;
+  background-color: #ffffff;
+  padding-top: 20px;
   overflow: hidden;
 }
 
 .avatar {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
   background-color: #272727;
 }
 
@@ -25,7 +25,7 @@
   color: #6b6a6a;
 }
 
-.statslist {
+.statsList {
   list-style: none;
   background-color: rgb(166, 164, 164);
   display: flex;
@@ -47,6 +47,6 @@
   padding-bottom: 15px;
 }
 
-.statsnumber {
+.statsNumber {
   font-weight: bold;
 }
