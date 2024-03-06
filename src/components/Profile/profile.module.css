@@ -2,10 +2,17 @@
   border: 1px solid #000000;
   border-radius: 6px;
   margin: 0 auto;
-  width: 320px;
+  width: 400px;
   background-color: #ffffff;
-  padding-top: 20px;
   overflow: hidden;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 20px;
 }
 
 .avatar {
@@ -19,10 +26,14 @@
   font-weight: bold;
   font-size: 24px;
   color: #000000;
+  margin-block-start: 15px;
+  margin-block-end: 15px;
 }
 
 .details {
   color: #6b6a6a;
+  margin-block-end: 5px;
+  margin-block-start: 5px;
 }
 
 .statsList {
@@ -32,8 +43,6 @@
   padding-left: 0;
   color: #000000;
   margin: 0;
-  /* border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px; */
 }
 
 .stats {
@@ -42,9 +51,11 @@
   border-left: 0.5px solid #828282;
   width: calc(100% / 3);
   display: flex;
+  margin: 0 auto;
   flex-direction: column;
   padding-top: 15px;
   padding-bottom: 15px;
+  align-items: center;
 }
 
 .statsNumber {

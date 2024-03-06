@@ -1,0 +1,31 @@
+.table {
+  width: 400px;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  border-spacing: 0;
+  overflow: hidden;
+}
+
+.tableHead {
+  width: 100%;
+  height: 36px;
+  background-color: #393838;
+  color: #ffffff;
+}
+
+.tableTh {
+  width: calc(100% / 3);
+}
+
+.tableBody {
+  background-color: #ffffff;
+}
+
+.tableTd {
+  width: calc(100% / 3);
+  text-align: center;
+}
+
+.tableTr:nth-child(2n) {
+  background-color: #b7b5b5;
+}
