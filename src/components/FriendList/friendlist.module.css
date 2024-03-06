@@ -13,6 +13,22 @@
   background-color: #ffffff;
   color: #000000;
   margin: 0 auto;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.friendName {
+  margin-block-end: 5px;
+}
+
+.online {
+  color: rgb(14, 196, 23);
+  margin-block-end: 0;
+  margin-block-start: 0.5px;
+}
+
+.offline {
+  color: rgb(246, 32, 32);
+  margin-block-end: 0;
+  margin-block-start: 0.5px;
 }

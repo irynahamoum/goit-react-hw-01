@@ -7,11 +7,7 @@ const FriendList = ({ friends }) => {
       {friends?.map((friend) => {
         return (
           <li key={friend.id} className={css.friendsCard}>
-            <FriendListItem
-              avatar={friend.avatar}
-              name={friend.name}
-              isOnline={friend.isOnline ? 'Online' : 'Offline'}
-            />
+            <FriendListItem avatar={friend.avatar} name={friend.name} isOnline={friend.isOnline} />
           </li>
         );
       })}
@@ -20,11 +16,12 @@ const FriendList = ({ friends }) => {
 };
 
 const FriendListItem = ({ avatar, name, isOnline }) => {
+  const onlineStatus = isOnline ? css.online : css.offline;
   return (
     <div>
       <img src={avatar} alt={name} width="48" />
-      <p>{name}</p>
-      <p>{isOnline}</p>
+      <p className={css.friendName}>{name}</p>
+      <p className={`${onlineStatus}`}>{isOnline ? 'Online' : 'Offline'}</p>
     </div>
   );
 };
