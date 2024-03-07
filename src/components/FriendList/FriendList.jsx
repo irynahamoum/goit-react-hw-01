@@ -1,5 +1,5 @@
 import FriendListItem from '../FriendListItem/FriendListItem';
-import css from './friendList.module.css';
+import css from './friendlist.module.css';
 
 const FriendList = ({ friends }) => {
   return (
